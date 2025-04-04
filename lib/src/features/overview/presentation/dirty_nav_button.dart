@@ -8,15 +8,18 @@ class DirtyNavButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(
-      onPressed: () {
-        Navigator.push(context, MaterialPageRoute(
-          builder: (context) {
-            return destination;
-          },
-        ));
-      },
-      child: Text("Dirty Screen #$number"),
+    return Container(margin: const EdgeInsets.all(8),
+      child: ElevatedButton(
+        onPressed: () {
+          Navigator.push(context, MaterialPageRoute(
+            builder: (context) {
+              return destination;
+            },
+          ));
+        },
+        style: const ButtonStyle(shadowColor: WidgetStatePropertyAll(Colors.green), elevation: WidgetStatePropertyAll(4)),
+        child: Text("Dirty Screen #$number"),
+      ),
     );
   }
 }
