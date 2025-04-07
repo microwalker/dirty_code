@@ -20,7 +20,7 @@ class DirtyScreenTwentyThree extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12.0),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.withOpacity(0.5),
+                    color: Colors.grey.withAlpha(128),
                     spreadRadius: 5,
                     blurRadius: 7,
                     offset: const Offset(0, 3),
@@ -49,7 +49,7 @@ class DirtyScreenTwentyThree extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12.0),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.withOpacity(0.5),
+                    color: Colors.grey.withAlpha(128),
                     spreadRadius: 5,
                     blurRadius: 7,
                     offset: const Offset(0, 3),
@@ -78,7 +78,7 @@ class DirtyScreenTwentyThree extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12.0),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.withOpacity(0.5),
+                    color: Colors.grey.withAlpha(128),
                     spreadRadius: 5,
                     blurRadius: 7,
                     offset: const Offset(0, 3),
